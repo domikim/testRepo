@@ -1,1 +1,5 @@
-add file hf1 in brach hotfix1
+registry=https://gz01-srdart.srdcloud.cn/npm/repotest/repotest-snapshot-npm-local/
+always-auth=true
+//gz01-srdart.srdcloud.cn/npm/repotest/repotest-snapshot-npm-local/:username=jordan
+//gz01-srdart.srdcloud.cn/npm/repotest/repotest-snapshot-npm-local/:_password=xxxxxxx
+//gz01-srdart.srdcloud.cn/npm/repotest/repotest-snapshot-npm-local/:email=<EMAIL>
