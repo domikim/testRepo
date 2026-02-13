@@ -1,1 +1,34 @@
-add file 4 at local notebook
+#下载制品中心centos7 yum安装源配置
+
+curl -o common-ctrdc.repo https://artifact.srdcloud.cn/artifactory/devops-release-generic-local/yum/srdcloud-centos-7.repo
+
+#下载制品中心centos6 yum安装源配置
+
+curl -o common-ctrdc.repo https://artifact.srdcloud.cn/artifactory/devops-release-generic-local/yum/srdcloud-centosvault-6.10.repo
+
+#下载制品中心centos8 yum安装源配置
+
+curl -o common-ctrdc.repo https://artifact.srdcloud.cn/artifactory/devops-release-generic-local/yum/srdcloud-centosvault-8.5.2111.repo
+
+#下载制品中心centos其他架构（如arm）yum安装源配置
+
+curl -o common-ctrdc.repo https://artifact.srdcloud.cn/artifactory/devops-release-generic-local/yum/srdcloud-centos-otherarch.repo
+
+#云网集群
+
+#下载制品中心centos7 yum安装源配置
+
+curl -o common-ctrdc.repo https://artifact.srdcloud.cn/artifactory/devops-release-generic-local/yum/srdcloud-centos-7-yd.repo
+
+#下载制品中心centos6 yum安装源配置
+
+curl -o common-ctrdc.repo https://artifact.srdcloud.cn/artifactory/devops-release-generic-local/yum/srdcloud-centosvault-6.10-yd.repo
+
+#下载制品中心centos8 yum安装源配置
+
+curl -o common-ctrdc.repo https://artifact.srdcloud.cn/artifactory/devops-release-generic-local/yum/srdcloud-centosvault-8.5.2111-yd.repo
+
+#下载制品中心centos其他架构（如arm）yum安装源配置
+
+curl -o common-ctrdc.repo https://artifact.srdcloud.cn/artifactory/devops-release-generic-local/yum/srdcloud-centos-otherarch-yd.repo
+
