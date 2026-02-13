@@ -1,2 +1,4 @@
 add hf2 at local notebook 
+
+在master的最新提交前，有个commit，准备pull request，rebase mode模式
 在feature003的最新commit之后，加一个commit，然后feature003发起pull request ，rebase模式
