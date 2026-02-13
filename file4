@@ -1,3 +1,27 @@
+#查看当前sources.list文件(以debian10为例)
+
+cat /etc/apt/sources.list
+
+deb http://deb.debian.org/debian buster main
+
+deb http://security.debian.org/debian-security buster/updates main
+
+deb http://deb.debian.org/debian buster-updates main
+
+#修改sources.list的url地址指向研发云制品中心地址
+
+sed -i 's/http:\/\/deb.debian.org/https:\/\/gz01-srdart.srdcloud.cn\/debian\/public\/huawei-release-debian-remote/g' /etc/apt/sources.list
+
+sed -i 's/http:\/\/security.debian.org/https:\/\/gz01-srdart.srdcloud.cn\/debian\/public\/huawei-release-debian-remote/g' /etc/apt/sources.list
+
+#刷新缓存后，通过apt-get install指令即可安装软件包
+
+apt-get clean
+
+apt-get update
+
+apt-get install <PACKAGE_NAME>
+
 #下载制品中心centos7 yum安装源配置
 
 curl -o common-ctrdc.repo https://artifact.srdcloud.cn/artifactory/devops-release-generic-local/yum/srdcloud-centos-7.repo
